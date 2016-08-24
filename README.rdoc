@@ -1,7 +1,11 @@
+NOTE: ALL THIS CODE IS EXTREMELY PROOF OF CONCEPT ONLY. RUNNING THIS CODE ON YOUR OWN PRODUCTION APP MIGHT BE CRAZY.
+
 To install:
+
 gem 'fourohfour', '~> 0.0.1'
 
 Add to bottom of routes:
+
 mount Fourohfour::Engine, at: "/"
 
 This project uses MIT-LICENSE.
