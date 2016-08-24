@@ -1,6 +1,6 @@
 
 module Fourohfour
-  class ErrorController
+  class ErrorController < ApplicationController
     def not_found
        render :not_found
     end
