@@ -1,3 +1,4 @@
 = Fourohfour
-
+gem "fourohfour" , :git => "git://github.com/billhimmelsbach/four-oh-four.git"
+mount Fourohfour::Engine, at: "/"
 This project rocks and uses MIT-LICENSE.
