@@ -1,3 +1,4 @@
 Fourohfour::Engine.routes.draw do
-    get "/tests", to: "users#index", as: "users"
+    get "/fourohfour", to: "application#not_found"
+    get "*unmatched_route", to: "application#not_found"
 end

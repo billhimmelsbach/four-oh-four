@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+  <div class = "col-xs-6 col-xs-offset-3">
+      <%= flash_messages %>
+  </div>
+  <br>
+  <div class="dialog col-xs-12">
+    <div class="row">
+      <img class="img-responsive img-circle center-block" src="https://media.giphy.com/media/l3vRguC8us9xJb2i4/giphy.gif">
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="text-center">
+          <% if current_user != nil%>
+            <h1>Sorry <%=current_user.first_name%>, the page you were looking for doesn't exist.</h1>
+          <%else%>
+            <h1> Sorry, the page you were looking for doesn't exist.</h1>
+          <%end%>
+          <p>You may have mistyped the address or the page may have moved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

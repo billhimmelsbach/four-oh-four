@@ -4,5 +4,9 @@ module Fourohfour
     def index
       render :index
     end
+    
+    def not_found
+	  render :not_found
+    end
   end
 end
