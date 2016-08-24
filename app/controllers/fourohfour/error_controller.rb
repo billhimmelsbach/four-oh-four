@@ -1,6 +1,8 @@
-require_dependency "fourohfour/application_controller"
 
 module Fourohfour
-  class ErrorController < ApplicationController
+  class ErrorController
+    def not_found
+       render :not_found
+    end
   end
 end
