@@ -1,3 +1,6 @@
+#four-oh-four
+## Creates your very own Justin Gif 404 page!
+
 NOTE: ALL THIS CODE IS EXTREMELY PROOF OF CONCEPT ONLY. RUNNING THIS CODE ON YOUR OWN PRODUCTION APP MIGHT BE CRAZY.
 
 To install:
